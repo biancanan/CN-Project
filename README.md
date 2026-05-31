@@ -13,14 +13,13 @@ A university project in Python that creates an alarm clock which only turns off 
    ```bash
    pip install -r requirements.txt
    ```
-2. Download the Common Objects in Bathroom Dataset from Kaggle.
-3. Extract the downloaded folders (`toothbrush`, `soap`, etc.) into a folder named `dataset` in this directory.
-4. Take a picture of your toothbrush using your webcam and save it in this directory as `reference_toothbrush.jpg`.
-5. Run the alarm:
+2. Extract the downloaded folders (`toothbrush`, `soap`, etc.) into a folder named `dataset` in this directory.
+3. Take a picture of your toothbrush using your webcam and save it in this directory as `reference_toothbrush.jpg`.
+4. Run the alarm:
    ```bash
    python alarm.py
    ```
-6. When the alarm triggers, follow the terminal instructions to show your toothbrush to your computer's webcam.
+5. When the alarm triggers, follow the terminal instructions to show your toothbrush to your computer's webcam.
 
 ## Changes & Improvements
 
