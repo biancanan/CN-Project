@@ -51,8 +51,7 @@ def svd_numpy_truncated(A, k=10):
 
 def compare_svd_efficiency(iterations=100, k=15):
     print(f"--- Rulare test de eficiență ({iterations} repetiții, k={k}) ---")
-    
-    # Generăm o matrice aleatoare de 100x100
+
     test_matrix = np.random.rand(100, 100)
     
     # 1. Test pentru SVD-ul manual
